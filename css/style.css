@@ -1,0 +1,290 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-size: 14px;
+    line-height: 24px;
+    font-family: 'Open Sans', sans-serif;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Montserrat', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+/* GLOBAL CODE FOR TITLE  */
+.title{
+    width: 100%;
+}
+.title h1{
+    font-size: 44px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    color: #28377d;
+}
+/* GLOBAL CODE FOR TITLE  */
+/* HEADER START  */
+.header{
+    width: 100%;
+    background-color: #fff;
+    margin-bottom: 15px;
+}
+.header .navbar-expand-lg .navbar-nav .nav-link{
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    margin: 0px 0px 0px 15px;
+    color: #28377d;
+}
+.header .navbar-expand-lg .navbar-nav .nav-link:hover{
+    color: #f15d2b;
+    transition: .5s;
+}
+.header .navbar-expand-lg .navbar-nav .nav-link:focus{
+    color: #f15d2b;
+}
+/* HEADER END  */
+/* SLIDER START  */
+.slider{
+    width: 100%;
+    padding: 60px 0px;
+    background: url(../images/bannner.png) center top no-repeat;
+    background-size: cover;
+}
+.inner-slider{
+    width: 100%;
+}
+.inner-slider h1{
+    font-size: 60px;
+    color: #fff;
+    text-align: center;
+    margin: 110px 0px 0px 0px;
+    font-weight: 600;
+}
+.arrow{
+    text-align: center;
+}
+.arrow i{
+    color: #fff;
+    margin: 100px 0px 0px 0px;
+}
+/* SLIDER END */
+/* ABOUT US  */
+.about-us{
+    width: 100%;
+    padding: 80px 0px;
+    margin: 0px 0px 40px 0px;
+}
+.title{
+    width: 100%;
+}
+.title img{
+    margin-bottom: 10px;
+} 
+.title h1{
+    font-family: 'Montserrat', sans-serif;
+    color: #28377d;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.title p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+}
+.inner-img{
+    width: 100%;
+    text-align: right;
+}
+/* ABOUT US  */
+/* WHAT WE  */
+.what-we{
+    width: 100%;
+    padding: 80px 0px;
+    /* background-color: #f7f8f8; */
+    background: url(../images/what-we.png) center top no-repeat;
+    background-size: cover;
+}
+.title{
+    text-align: center;
+    padding: 0px 0px 80px 0px;
+}
+.card{
+    width: 100%;
+}
+.card img{
+    border-radius: 0px;
+}
+.card h5{
+    text-align: center;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 600;
+    margin: 205px 0px 0px;
+}
+.card .long-arrow{
+    text-align: center;    
+    margin: 115px 0px 0px;
+
+}
+/* WHAT WE  */
+/* Attorney */
+.attorney{
+    width: 100%;
+    padding: 80px 0px;
+    background: url(../images/attorneybg.png) center top no-repeat;
+    background-size: cover;
+}
+.attorney .title{
+    text-align: left;
+    width: 100%;
+    padding: 120px 0px;
+}
+.attorney .title h1{
+    color: #fff;
+}
+.attorney .title p{
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+}
+.attorney .title a{
+    text-decoration: none;
+    color: #f15d2b;
+    padding: 0px;
+}
+.attorney .title a:hover{
+    color: #fff;
+}
+.attorney .title a:focus{
+    color: #fff;
+}
+.attorney .card-header{
+    width: 100%;
+}
+.attorney .card {
+    margin: 0px 0px 20px;
+}
+.attorney .card-header h5{
+    text-align: left;
+    margin: 340px 25px 0px;
+}
+/* Attorney */
+/* LANGUAGES */
+.language{
+    width: 100%;
+    padding: 80px 0px;
+}
+.language .title{
+    text-align: center;
+    padding: 0px 0px 80px;
+}
+.language .inner-language{
+    width: 100%;
+    padding: 20px;
+}
+.language .inner-language h4{
+    color: #28377d;
+    font-weight: 700;
+    margin: 0px 0px 20px 0px;
+}
+.language .inner-language p{
+    font-family: 'Open Sans', sans-serif;
+    color: #777;
+}
+.language .inner-language a{
+    text-decoration: none;
+    color: #f15d2b;
+    padding: 0px;
+}
+.language .inner-language a:hover{
+    color: #28377d;
+}
+.language .inner-language a:focus{
+    color: #28377d;
+}
+/* LANGUAGES */
+/* CONTACT US  */
+.contact-us{
+    width: 100%;
+    padding: 80px 0px;
+    background-color: #28377d;
+}
+.contact-us .title{
+    width: 100%;
+    text-align: center;
+    padding: 0px 0px 80px 0px;
+}
+.contact-us .title h1{
+    color: #fff;
+}
+.contact-us .contact-form{
+    width: 100%;
+    text-align: center;
+}
+.contact-us .contact-form .form-control{
+    background: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 0px;
+    border-bottom: 1px solid #ccc;
+    padding: 15px 0px;
+}
+.contact-us .contact-form input::placeholder{
+    color: #fff;
+}
+.contact-us .contact-form textarea::placeholder{
+    color: #fff;
+}
+.contact-us .contact-form a{
+    border-radius: 0px;
+    background: #f15d2b;
+    padding: 10px 70px;
+    margin: 15px 0px 0px 0px;
+    border: none;
+    color: #fff;
+}
+
+/* CONTACT US  */
+/* FOOTER  */
+.footer{
+    width: 100%;
+    padding: 40px 0px;
+    background-color: #0c1234;
+}
+.footer .main-footer{
+    text-align: left;
+    color: #616ca8;
+}
+.footer .socail-iconss{
+    
+    width: 100%;
+    list-style: none;
+}
+.footer .socail-icons li{
+    
+    display: inline-block;
+}
+.footer .socail-icons li a{
+    color: #616ca8;
+    margin: 0px 0px 0px 10px;
+    font-size: 20px;
+}
+.footer .socail-icons li a:hover{
+    color: #fff;
+}
+/* FOOTER  */
